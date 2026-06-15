@@ -10,3 +10,7 @@ app.listen(4000, () => {
 })
 
 console.log("hello all");
+
+app.get("/about", (req, res)=> {
+    res.send("About us know more")
+})
